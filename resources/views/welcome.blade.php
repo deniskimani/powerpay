@@ -289,6 +289,17 @@
             </div>
           </div>
         </div>
+        <div class="section-header text-center" style="padding-top: 50px;">
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Services</h2>
+        </div>
+        <div>
+          <p>We are a leader in the provision of smart meters payment platforms as a service, this enables our clients to automaticaly switch off the solar powered meter and automaticaly switch on when payment is made to our automate payment gateway, this is offered to external companies involved with clean energy transactions.</p>
+          <div style="padding-top: 40px;"></div>
+          <div class=" col-md-12 col-xs-12 ">
+              
+          </div>
+        </div>
+        </div>
       </div>
       <!-- Container Ends -->
     </section>
@@ -340,17 +351,17 @@
         <div class="row text-align-">
           <div class="col-lg-4 col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
             <div class="client-item-wrapper">
-             <a href="https://news.omnivoltaic.com/"> <img class="img-fluid" src="assets/img/clients/img1.png" alt=""></a>
+              <img class="img-fluid" src="assets/img/clients/img1.png" alt="">
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
             <div class="client-item-wrapper">
-              <a href="https://graduatefarmer.co.ke/"><img class="img-fluid" src="assets/img/clients/img2.png" alt=""></a>
+              <img class="img-fluid" src="assets/img/clients/img2.png" alt="">
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="0.9s">
             <div class="client-item-wrapper">
-             <a href="http://www.greeninnovationventures.com/"> <img class="img-fluid" src="assets/img/clients/img3.png" alt=""></a>
+             <img class="img-fluid" src="assets/img/clients/img3.png" alt="">
             </div>
           </div>
           
@@ -366,10 +377,10 @@
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
           <div class="col-md-6 col-lg-6 col-sm-12">
             <div class="contact-block">
-              <div class="col-lg-5 col-md-12 col-xs-12">
+              <div class="col-md-6 col-md-12 ">
                 <div class="map">
                     <iframe
-                    width="500"
+                    width="100%"
                     height="380"
                     frameborder="0" style="border:0"
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyABbSZGCk35y4gfQ9sRPH0xy78KJ7g0NTQ&q=The+Riverfront, Prof+David+Wasawo+Drive, Nairobi" allowfullscreen>
@@ -379,7 +390,7 @@
               </div>
             </div>
           </div>  
-          <div class="col-md-6 col-lg-6 col-sm-12">
+          <div class="col-md-6  col-sm-12">
             <div class="contact-right-area wow fadeIn">
               <div class="contact-title">
                 <h1>We're a friendly bunch..</h1>
