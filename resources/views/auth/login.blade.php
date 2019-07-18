@@ -61,7 +61,7 @@
           </div>
         </div>
           <div class="card-footer justify-content-center">
-            <button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Lets Go') }}</button>
+            <button type="submit" class="btn btn-primary btn-link btn-lg">{{ __('Login') }}</button>
           </div>
         </div>
       </form>
@@ -73,11 +73,11 @@
                 </a>
             @endif
         </div>
-        <div class="col-6 text-right">
+        {{--<div class="col-6 text-right">
             <a href="{{ route('register') }}" class="text-light">
                 <small>{{ __('Create new account') }}</small>
             </a>
-        </div>
+        </div>--}}
       </div>
     </div>
   </div>
