@@ -38,7 +38,7 @@
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
-          <a href="index.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>       
+          <a href="#hero-area" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>       
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -294,11 +294,12 @@
         </div>
         <div>
           <p>We are a leader in the provision of smart meters payment platforms as a service, this enables our clients to automaticaly switch off the solar powered meter and automaticaly switch on when payment is made to our automate payment gateway, this is offered to external companies involved with clean energy transactions.</p>
-          <div style="padding-top: 40px;"></div>
-          <div class=" col-md-12 col-xs-12 ">
-              
-          </div>
-        </div>
+            
+          <div class="services" data-wow-delay="0.6s" style="padding-top: 45px;">
+              <img class="img-fluid" src="assets/img/PHOTO.png" alt="">
+             </div>
+
+          
         </div>
       </div>
       <!-- Container Ends -->
@@ -361,7 +362,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-xs-12 wow fadeInUp" data-wow-delay="0.9s">
             <div class="client-item-wrapper">
-             <img class="img-fluid" src="assets/img/clients/img3.png" alt="">
+             <a href="http://www.greeninnovationventures.com/"><img class="img-fluid" src="assets/img/clients/img3.png" alt=""></a>
             </div>
           </div>
           
@@ -417,7 +418,7 @@
                   <div class="contact-icon">
                     <i class="lni-phone-handset"></i>
                   </div>
-                  <p><a href="">Phone:  +254 759 366 441</a></p>
+                  <p><a href="">Phone:  +254 740719966</a></p>
                 </div>
               </div>
             </div>

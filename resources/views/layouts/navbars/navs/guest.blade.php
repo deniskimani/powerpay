@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
   <div class="container">
     <div class="navbar-wrapper">
-      <a class="navbar-brand" href="{{ route('home') }}"><img src="/material/img/powerpay.png" alt="powerpay" height="50" width="170"></a>
+      <a class="navbar-brand" href="{{ route('home') }}"><img src="/material/img/powerpay.png" alt="powerpay" height="40" width="150"></a>
     </div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
       <span class="sr-only">Toggle navigation</span>

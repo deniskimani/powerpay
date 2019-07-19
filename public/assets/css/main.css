@@ -421,6 +421,9 @@ hr {
   background: #3d60f4;
   overflow: hidden;
 }
+.container .services {
+  padding-top: 40 px;
+}
 
 .heading {
   padding-left: 30px;
