@@ -293,7 +293,7 @@
           <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Services</h2>
         </div>
         <div>
-          <p>We are a leader in the provision of smart meters payment platforms as a service, this enables our clients to automaticaly switch off the solar powered meter and automaticaly switch on when payment is made to our automate payment gateway, this is offered to external companies involved with clean energy transactions.</p>
+          <p>We are a leader in the provision of financing for clean energy,  electric appliances that provide people with a better quality of life and opportunities to increase and diversify their income. We also provide a digital platform that allows you to automate your payments and integrate them with mobile money serving your revenue model by ensuring cash is digitized and accounted for using our API. Our platform allows you to generate reports and track your customers' payments easily</p>
             
           <div class="services" data-wow-delay="0.6s" style="padding-top: 45px;">
               <img class="img-fluid" src="assets/img/PHOTO.png" alt="">
