@@ -88,9 +88,10 @@ class ProductController extends Controller
         //Delete the Product
     $product = Product::findOrFail($product_id);
     $product->delete();
+    toast()->success('Product removed');
     //Redirect to a specified route with flash message.
     return redirect()
-        ->route('product.index')
-        ->with('Product successfully deleted.');
+        ->route('product.index');
+        
     }
 }
