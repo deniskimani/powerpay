@@ -73,7 +73,8 @@ class ProductController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+      
+    
     }
 
     /**
@@ -82,8 +83,14 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($product_id)
     {
-        //
+        //Delete the Product
+    $product = Product::findOrFail($product_id);
+    $product->delete();
+    //Redirect to a specified route with flash message.
+    return redirect()
+        ->route('product.index')
+        ->with('Product successfully deleted.');
     }
 }

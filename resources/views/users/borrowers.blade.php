@@ -46,9 +46,12 @@
                       <th>
                         {{ __('Price') }}
                       </th>
+                      <th>
+                        {{ __('Request Date') }}
+                      </th>
                       
-                      <th class="text-right">
-                        {{ __('Actions') }}<br>accept/<br>decline
+                      <th class="text-center">
+                        {{ __('Actions') }}
                       </th>
                     </thead>
                     <tbody>
@@ -69,6 +72,9 @@
                           <td>
                             {{ $user->product_amount }}
                           </td>
+                          <td>
+                            {{ $user->created_at }}
+                          </td>
                           
                           
                           <td class="td-actions text-right">
@@ -77,21 +83,19 @@
                                   @csrf
                                   {{ method_field('PUT')}}
                                   <input type="hidden" name="action" value="approve">
-                                  <button type="submit" value="{{ $user->response_id }}" class="btn btn-success btn-link" data-original-title="" title="">
-                                      <i class="material-icons">check_circle</i>
-                                      <div class="ripple-container"></div>
+                                  <button type="submit" value="{{ $user->response_id }}" class="btn btn-success " data-original-title="" title="">
+                                      Approve
                                   </button>
-                                </form>
-
-                                <form method="post" action="{{ route('users.update', $user->response_id) }}">
+                                  
+                             <div style="float:right; padding-left:3px;"></form>
+                             <form action="{{ route('users.update', $user->response_id) }}" method="post">   
                                   @csrf
                                   {{ method_field('PUT')}}
                                   <input type="hidden" name="action" value="decline">
-                                  <button type="submit" value="{{ $user->response_id }}" class="btn btn-danger btn-link" data-original-title="" title="">
-                                      <i class="material-icons">close</i>
-                                      <div class="ripple-container"></div>
+                                  <button type="submit" value="{{ $user->response_id }}" class="btn btn-danger " data-original-title="" title="">
+                                      Decline
                                   </button>
-                              </form>
+                              </form></div>
 
                           </td>
                         </tr>

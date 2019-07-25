@@ -24,7 +24,7 @@
                   </div>
                 @endif
                 <div class="row">
-                  <div class="col-12 text-right">
+                  <div class="col-12 text-right" style="padding-bottom:20px">
                     <a href="{{ route('product.create') }}" class="btn btn-sm btn-primary">{{ __('Add Product') }}</a>
                   </div>
                 </div>
@@ -46,6 +46,10 @@
                       <th>
                         {{ __('Period') }}
                       </th>
+                      <th class="text-right">
+                        {{ __('Action') }}
+                      </th>
+
                     </thead>
                     <tbody>
                       @foreach($product as $products)
@@ -65,6 +69,18 @@
                           <td>
                             {{ $products->period }}
                           </td>
+                          <td class="td-actions text-right ">
+                          <form method="post" id="delete-form" action="{{ route('product.destroy',$products->product_id)}}">
+                            @csrf
+                            @method('delete')
+                        
+                            <button type="button" class="btn btn-danger " data-original-title="" title="" onclick="confirm('{{ __("Are you sure you want to delete this product, it might be in use?") }}') ? this.parentElement.submit() : ''">
+                              Remove
+                            </button>
+                          </form>
+                          </td>
+
+
                         </tr>
                       @endforeach
                     </tbody>

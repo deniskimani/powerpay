@@ -10,7 +10,7 @@ class LoanersController extends Controller
     public function index()
     {
 
-        $users = DB::table('users')->select('responses.status','responses.id as response_id', 'name', 'responses.msisdn', 'product_name', 'product.amount as product_amount', 'responses.amount as response_amount')
+        $users = DB::table('users')->select('responses.status','responses.created_at as created_at','responses.id as response_id', 'name', 'responses.msisdn', 'product_name', 'product.amount as product_amount', 'responses.amount as response_amount')
                 ->join('responses', 'responses.msisdn', '=', 'users.msisdn')
                 ->join('product', 'product.product_id', '=', 'responses.product_id')
                 ->where('responses.status', '<', 1)
@@ -33,11 +33,13 @@ class LoanersController extends Controller
                 'status' => 1
             ]);
             toast()->success('Loan approved');
-        } else {
+        } elseif ($request->action == 'decline'){
             $response->update([
                 'status' => 2
             ]);
             toast()->warning('Loan declined');
+        }else {
+            toast()->danger('No change done!');
         }
 
         return redirect()->route('users.index');

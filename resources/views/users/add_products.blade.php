@@ -79,7 +79,7 @@
                   </div>
                 </div>
                 <div class="card-footer ml-auto mr-auto">
-                <button type="submit" class="btn btn-primary">{{ __('Add Product') }}</button>
+                <button type="submit" class="btn btn-primary text-center">{{ __('Add Product') }}</button>
                 </div>
               </div>
             </div>

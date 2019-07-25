@@ -48,7 +48,7 @@
                       </th>
                       
                       <th class="text-right">
-                        {{ __('Actions') }}<br>Clear
+                        {{ __('Actions') }}
                       </th>
                     </thead>
                     <tbody>
@@ -77,9 +77,9 @@
                                   @csrf
                                   {{ method_field('PUT')}}
                                   <input type="hidden" name="action" value="clear">
-                                  <button type="submit" value="{{ $user->response_id }}" class="btn btn-success btn-link" data-original-title="" title="">
-                                      <i class="material-icons">check_circle</i>
-                                      <div class="ripple-container"></div>
+                                  
+                                  <button type="submit" value="{{ $user->response_id }}" class="btn btn-success " data-original-title="" title="">                                     
+                                  Clear
                                   </button>
                                 </form>
 

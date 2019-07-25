@@ -12,4 +12,5 @@ class Product extends Model
         'product_id', 'type', 'product_name', 'amount', 'period'
     ];
     public $timestamps = false;
+    protected $primaryKey = 'product_id';
 }
