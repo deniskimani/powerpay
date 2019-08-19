@@ -403,8 +403,7 @@
                   <div class="contact-icon">
                     <i class="lni-map-marker"></i>
                   </div>
-                  <p><a href="https://www.google.com/search?source=hp&ei=Y4EkXaXOA7CZlwSt14DQCQ&q=river+front+riverside+drive&oq=river+front+riverside+drive&gs_l=psy-ab.3..0i13.999.11590..12017...0.0..0.282.5366.0j17j10......0....1..gws-wiz.....0..0i131j0j0i10j0i22i10i30j0i13i10j0i13i30j0i13i10i30j0i22i30j0i13i5i30j0i8i13i30.ukbOv3yQTtc">Address:  The Riverfront,4th Floor,  Off Riverside Drive, 
-                    P.O Box 66071-00800,
+                  <p><a href="https://www.google.com/search?source=hp&ei=Y4EkXaXOA7CZlwSt14DQCQ&q=river+front+riverside+drive&oq=river+front+riverside+drive&gs_l=psy-ab.3..0i13.999.11590..12017...0.0..0.282.5366.0j17j10......0....1..gws-wiz.....0..0i131j0j0i10j0i22i10i30j0i13i10j0i13i30j0i13i10i30j0i22i30j0i13i5i30j0i8i13i30.ukbOv3yQTtc">Address:  Madonna House Suit  110,  1st flr</br>  Westlands Road,
                     Westlands.</a></p>
                 </div>
                 <div class="single-contact">
